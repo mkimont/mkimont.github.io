@@ -5,13 +5,13 @@
     "@type": "Person",
     "name": "Mateusz Kimont",
     "jobTitle": "Desarrollador web full stack",
-    "url": "https://kimek.github.io/es/",
-    "image": "https://kimek.github.io/assets/images/mateusz-kimont.png",
+    "url": "https://mkimont.github.io/es/",
+    "image": "https://mkimont.github.io/assets/images/mateusz-kimont.png",
     "email": "mailto:admin@yorkman.co.uk",
     "knowsLanguage": ["es", "en", "pl"],
     "sameAs": [
       "https://www.linkedin.com/in/mkimont/",
-      "https://github.com/kimek",
+      "https://github.com/mkimont",
       "https://stackoverflow.com/users/3381657/fearis",
       "https://www.x.com/mkimont/"
     ],

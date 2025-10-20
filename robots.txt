@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kimek.github.io/sitemap.xml
+Sitemap: https://mkimont.github.io/sitemap.xml

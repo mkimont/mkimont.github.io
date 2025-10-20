@@ -8,12 +8,12 @@
 <p>
     <a href="mailto:admin@yorkman.co.uk"><img src="https://img.shields.io/badge/Email-Contact_Me-informational?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
     <a href="https://www.linkedin.com/in/mkimont/"><img src="https://img.shields.io/badge/LinkedIn-mkimont-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://kimek.github.io/CV_Mateusz_Kimont.pdf"><img src="https://img.shields.io/badge/CV-Download_PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" alt="CV"></a>
+    <a href="https://mkimont.github.io/CV_Mateusz_Kimont.pdf"><img src="https://img.shields.io/badge/CV-Download_PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" alt="CV"></a>
 </p>
 <p>
-    <a href="https://kimek.github.io/"><strong>English Portfolio</strong></a> •
-    <a href="https://kimek.github.io/pl/"><strong>Portafolio en Español</strong></a> •
-    <a href="https://kimek.github.io/es/"><strong>Portfolio po Polsku</strong></a>
+    <a href="https://mkimont.github.io/"><strong>English Portfolio</strong></a> •
+    <a href="https://mkimont.github.io/pl/"><strong>Portafolio en Español</strong></a> •
+    <a href="https://mkimont.github.io/es/"><strong>Portfolio po Polsku</strong></a>
 </p>
 
 </div>
@@ -34,6 +34,10 @@
 ---
 
 ## 🏢 Senior-Level Experience (8+ years)
+
+### **Principal Engineer** @ Wine.com
+*2025 - current*
+> Engineered a client-facing, self-service web application for corporate gifting, leveraging React and TypeScript to build a scalable and maintainable frontend.
 
 ### **Principal Engineer** @ CMO Group
 *2024 - 2025 (7 months)*
@@ -87,7 +91,7 @@ Delivered pixel-perfect websites and solutions for a diverse client portfolio wh
 <div align="center">
     <h3>Contact & Social Profiles</h3>
     <p>
-        <a href="https://github.com/kimek"><img src="https://img.shields.io/badge/GitHub-kimek-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://github.com/mkimont"><img src="https://img.shields.io/badge/GitHub-kimek-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
         <a href="https://stackoverflow.com/users/3381657/fearis"><img src="https://img.shields.io/badge/Stack_Overflow-fearis-F58025?style=flat&logo=stackoverflow&logoColor=white" alt="Stack Overflow"></a>
         <a href="https://www.x.com/mkimont/"><img src="https://img.shields.io/badge/X-mkimont-000000?style=flat&logo=x&logoColor=white" alt="X (Twitter)"></a>
     </p>
