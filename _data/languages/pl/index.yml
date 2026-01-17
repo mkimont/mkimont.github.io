@@ -1,12 +1,12 @@
 # Metadane strony
 page_title: "Mateusz Kimont - Polska wersja"
 job_title: "Principal Full-Stack Inżynier"
-description: "Profesjonalne portfolio Mateusza Kimonta, Principal Full-Stack Engineera z ponad 8-letnim doświadczeniem w PHP, AWS i optymalizacji wydajności. Otwarty na nowe możliwości pracy zdalnej."
-job_seeking_status: "Status: Otwaty na nowe propozycje pracy - Lipiec 2025"
+description: "Profesjonalne portfolio Mateusza Kimonta, Principal Full-Stack Engineera z ponad 10-letnim doświadczeniem w PHP, AWS i optymalizacji wydajności. Otwarty na nowe możliwości pracy zdalnej."
+job_seeking_status: "Status: Otwaty na nowe propozycje pracy - Maj 2026"
 
 # Tytuły sekcji
 achievements_title: "Kluczowe Osiągnięcia"
-experience_title: "Doświadczenie na Poziomie Seniora (8+ lat)"
+experience_title: "Doświadczenie na Poziomie Seniora (10+ lat)"
 agency_title: "Doświadczenie w Agencjach Cyfrowych (2+ lata)"
 skills_title: "Szczegółowy Podział i Umiejętności Techniczne"
 education_title: "Nagrody i Edukacja"
@@ -15,6 +15,7 @@ contact_title: "Kontakt i Profile"
 # Sekcja Agencji Cyfrowych
 agency_description: "Dostarczałem strony internetowe i rozwiązania z dbałością o każdy detal (pixel-perfect) dla zróżnicowanego portfolio klientów, pracując w czołowych agencjach cyfrowych."
 agency_projects_title: "Wybrane Projekty Klientów:"
+agency_title: "Doświadczenie na Poziomie Juniora-Średniego (2+ lata)"
 
 # Sekcja Umiejętności
 skill_frontend: "Frontend"

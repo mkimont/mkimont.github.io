@@ -33,7 +33,7 @@
 
 ---
 
-## 🏢 Senior-Level Experience (8+ years)
+## 🏢 Senior-Level Experience (10+ years)
 
 ### **Principal Engineer** @ Wine.com
 *2025 - current*

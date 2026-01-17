@@ -5,22 +5,7 @@ default_lang: "en"
 seo:
   json_ld: false
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-      lang: "en-US"
-      title: "Mateusz Kimont - Principal Full-Stack Engineer"
-      jobTitle: "Principal Full-Stack Engineer"
-      fullname: "Mateusz Kimont"
-      description: "Professional portfolio for Mateusz Kimont, a Principal Full-Stack Engineer with 8+ years of experience in PHP, AWS, and performance optimization. Open for new remote opportunities."
-  -
-    scope:
-      path: "index.html"
-    values:
-      layout: "default"
-      lang: "en-US"
+      lang: "en"
       title: "Mateusz Kimont - Principal Full-Stack Engineer"
       jobTitle: "Principal Full-Stack Engineer"
       fullname: "Mateusz Kimont"
@@ -28,3 +13,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+sass:
+  load_paths:
+    - _sass
+    - assets/css

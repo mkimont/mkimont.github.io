@@ -1,0 +1,23 @@
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #37aa00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background-color: #246f02;
+        color: #fff;
+    }
+}

@@ -1,0 +1,27 @@
+- title: "High-Volume Payment Integration"
+  description: |
+    Developed and integrated cross-platform payment wrappers responsible for processing over 40 million transactions annually.
+
+- title: "High-Volume Self-Service Integration"
+  description: |
+     Architected and developed a high-impact React self-service application for a major US e-commerce platform.
+
+- title: "Enterprise Modernization"
+  description: |
+    Streamlined business operations for two major international companies by resolving critical technical debt.
+
+- title: "Customer Portal Architecture"
+  description: |
+    Built a customer insurance portal for <a href="https://portal.theinsuranceemporium.co.uk/">The Insurance Emporium</a>, utilizing a JavaScript framework and JSON API.
+
+- title: "Full-Stack Performance Overhaul"
+  description: |
+    Drove a 2x performance (or more) increase in production sites by leading a full-stack overhaul that included upgrading to PHP 8.3, redesigning the AWS architecture, and optimizing APIs and databases.
+
+- title: "Bespoke CMS Development"
+  description: |
+    Independently engineered a robust CMS from the ground up, featuring over 125 configurations for personalized product creation. <a href="/projects/printing-cms">View Demos</a>.
+
+- title: "Custom Headless Testing Automation Server"
+  description: |
+    Designed and deployed a fully automated, headless testing environment using Linux, Ansible (IaC) and Webdriver.io, seamlessly integrated into a Jenkins CI/CD pipeline.

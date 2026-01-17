@@ -2,12 +2,12 @@
 page_title: "Mateusz Kimont - Principal Full-Stack Engineer"
 job_title: "Principal Full-Stack Engineer"
 full_name: "Mateusz Kimont"
-description: "Professional portfolio for Mateusz Kimont, a Principal Full-Stack Engineer with 8+ years of experience in PHP, AWS, and performance optimization. Open for new remote opportunities."
-job_seeking_status: "Status: Open for new remote opportunities - July 2025"
+description: "Professional portfolio for Mateusz Kimont, a Principal Full-Stack Engineer with 10+ years of experience in PHP, AWS, and performance optimization. Open for new remote opportunities."
+job_seeking_status: "Status: Open for new remote opportunities - May 2026"
 
 # Section Titles
 achievements_title: "Key Achievements"
-experience_title: 'Senior-Level Experience <span class="break-before-paren">(8+ years)</span>'
+experience_title: 'Senior-Level Experience <span class="break-before-paren">(10+ years)</span>'
 agency_title: 'Digital Agency Experience <span class="break-before-paren">(2+ years)</span>'
 skills_title: 'Drilldown &amp; <span class="hide-mobile">Technical</span> Skills'
 education_title: "Awards &amp; Education"
@@ -16,6 +16,7 @@ contact_title: "Contact &amp; Social Profiles"
 # Agency Section
 agency_description: "Delivered pixel-perfect websites and solutions for a diverse client portfolio while at top digital agencies."
 agency_projects_title: "Selected Client Projects:"
+agency_title: "Mid-Junior Developer (2+ years)"
 
 # Skills Section
 skill_frontend: "Frontend Skills"

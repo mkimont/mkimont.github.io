@@ -1,7 +1,15 @@
+- start_date: "2025"
+  end_date: "2026"
+  dates_display: "2025 - 2026 (6 months)"
+  title: "Fullstack Inżynier"
+  company: "Wine.com"
+  description: |
+    W <span style="font-weight: bold;">Wine.com</span> zaprojektowałem i stworzyłem wysoce efektywną aplikację samoobsługową React. Zaprojektowałem płynną integrację nowoczesnej aplikacji React ze złożonym, rozbudowanym systemem e-commerce opartym na starszej technologii Backbone.js.
+
 - start_date: "2024"
   end_date: "2025"
   dates_display: "2024 - 2025 (7 miesięcy)"
-  title: "Principal Engineer"
+  title: "Principal Inżynier"
   company: "CMO Group"
   description: |
     W <span style="font-weight: bold;">CMO Group</span> przyczyniłem się do dwukrotnego wzrostu wydajności serwisów produkcyjnych, prowadząc pełną modernizację stosu technologicznego, która obejmowała aktualizację do PHP 8.3, przeprojektowanie architektury AWS oraz optymalizację API i baz danych.

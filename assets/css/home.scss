@@ -1,0 +1,58 @@
+section #title {
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.home-section {
+    margin-bottom: 4rem;
+}
+
+.home-section-title {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.home-section-paragraph {
+    opacity: 0.5;
+}
+
+.home-article {
+    margin-bottom: 2rem;
+}
+
+.home-job-title {
+    font-size: 1.25em;
+}
+
+.home-job-description {
+    margin-top: 0.5rem;
+}
+
+.home-agency-links {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.home-profile-img {
+    width: 150px; 
+    border-radius: 50%;
+    max-width: 70px;
+}
+
+.home-skills {
+    text-align: center;
+}
+
+.home-education-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-education-item {
+    flex: 1;
+    min-width: 280px;
+}

@@ -1,3 +1,11 @@
+- start_date: "2025"
+  end_date: "2026"
+  dates_display: "2025 - 2026 (6 months)"
+  title: "Fullstack Ingeniero"
+  company: "Wine.com"
+  description: |
+    En <span style="font-weight: bold;">Wine.com</span> diseñamos y desarrollamos una aplicación de autoservicio React de alto impacto. Diseñamos la integración perfecta de la aplicación React moderna en un sistema de comercio electrónico Backbone.js complejo y a gran escala.
+
 - start_date: "2024"
   end_date: "2025"
   dates_display: "2024 - 2025 (7 meses)"

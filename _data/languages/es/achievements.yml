@@ -1,0 +1,27 @@
+- title: "Integración de Pagos de Alto Volumen"
+  description: |
+    Desarrollé e integré wrappers de pago multiplataforma responsables de procesar más de 40 millones de transacciones anuales.
+
+- title: "Integración de autoservicio de alto volumen"
+  description: |
+    Diseñé y desarrollé una aplicación de autoservicio React de alto impacto para una importante plataforma de comercio electrónico de EE. UU.
+
+- title: "Modernización de Sistemas Empresariales"
+  description: |
+    Optimicé las operaciones de negocio para dos importantes empresas internacionales resolviendo deuda técnica crítica.
+
+- title: "Arquitectura de Portal de Cliente"
+  description: |
+    Construí un portal de seguros integral para clientes de <a href="https://portal.theinsuranceemporium.co.uk/">The Insurance Emporium</a>, utilizando un framework de JavaScript y una API JSON.
+
+- title: "Optimización Completa del Rendimiento Full-Stack"
+  description: |
+    Impulsé un aumento del doble (o más) en el rendimiento de los sitios en producción liderando una optimización completa del stack tecnológico que incluyó la actualización a PHP 8.3, el rediseño de la arquitectura AWS y la optimización de APIs y bases de datos.
+
+- title: "Desarrollo de CMS a Medida"
+  description: |
+    Diseñé de forma independiente un robusto CMS desde cero, con más de 125 configuraciones para la creación de productos personalizados. <a href="/projects//printing-cms">Ver Demos</a>.
+
+- title: "Servidor para Automatización de Pruebas Headless"
+  description: |
+    Diseñé e implementé un entorno de pruebas headless totalmente automatizado usando Ansible (IaC) y Webdriver.io, perfectamente integrado en un pipeline de CI/CD de Jenkins.

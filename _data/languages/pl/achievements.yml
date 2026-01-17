@@ -1,0 +1,27 @@
+- title: "Integracja Płatności o Dużym Wolumenie"
+  description: |
+    Opracowałem i zintegrowałem wieloplatformowe wrappery płatności, odpowiedzialne za przetwarzanie ponad 40 milionów transakcji rocznie.
+
+- title: "Integracja samoobsługi o dużej wolumenie"
+  description: |
+    Opracował i rozwinął wysoce efektywną aplikację samoobsługową React dla dużej amerykańskiej platformy e-commerce.
+
+- title: "Modernizacja Systemów Enterprise"
+  description: |
+    Usprawniłem operacje biznesowe dla dwóch dużych międzynarodowych firm poprzez rozwiązanie krytycznego długu technicznego.
+
+- title: "Architektura Portalu Klienta"
+  description: |
+    Zbudowałem portal ubezpieczeniowy dla klientów <a href="https://portal.theinsuranceemporium.co.uk/">The Insurance Emporium</a>, wykorzystując framework JavaScript i API JSON.
+
+- title: "Pełna Optymalizacja Wydajności Full-Stack"
+  description: |
+    Doprowadziłem do dwukrotnego wzrostu (lub więcej) wydajności na stronach produkcyjnych, prowadząc pełną modernizację full-stack, która obejmowała aktualizację do PHP 8.3, przeprojektowanie architektury AWS oraz optymalizację API i baz danych.
+
+- title: "Rozwój Dedykowanego Systemu CMS"
+  description: |
+    Samodzielnie zaprojektowałem solidny system CMS od podstaw, oferujący ponad 125 konfiguracji do personalizowanej kreacji produktów. <a href="/projects/printing-cms">Zobacz Demo</a>.
+
+- title: "Wlasny Serwer do Automatyzacji Testów Headless"
+  description: |
+    Zaprojektowałem i wdrożyłem w pełni zautomatyzowane środowisko do testów headless, używając Ansible (IaC) i Webdriver.io, zintegrowane w potoku CI/CD Jenkins.

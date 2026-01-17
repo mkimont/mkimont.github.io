@@ -2,7 +2,7 @@
 <html lang="{{ page.lang }}">
 {% include head.html %}
 <body itemscope itemtype="https://schema.org/Person">
-    {%- assign t = site.data[page.lang] -%}
+    {%- assign t = site.data.languages[page.lang].index -%}
     {%- assign experience_data = site.data[page.experience_file] -%}
     {%- assign achievements_data = site.data[page.achievements_file] -%}
     {% include header.html %}

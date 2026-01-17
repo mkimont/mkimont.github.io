@@ -1,14 +1,20 @@
 ---
 ---
 @import "jekyll-theme-midnight";
+@import "footer";
+@import "home";
+@import "cv-button";
 
+.wrapper, footer, section {
+    max-width: 900px;
+}
 section {
     margin: 0;
     padding:0;
 }
 
 main.wrapper { 
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 footer {
