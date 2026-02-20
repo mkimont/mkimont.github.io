@@ -1,0 +1,139 @@
+.quote-highlight {
+    border-left: 4px solid $enterprise-accent;
+    background: $quote-bg;
+    margin: 1em 0;
+    padding: 1em 1em 1em 1.25em;
+    font-style: italic;
+    color: $body-color;
+}
+
+.status-badge {
+    display: inline-block;
+    background: $status-badge-bg;
+    color: $status-badge-text !important;
+    padding: 0.55em 1.2em;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0;
+    text-decoration: none;
+}
+
+.home-job-role {
+    color: $body-color;
+}
+
+.quote-text {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: $enterprise-secondary;
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.quote-author {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.employment-data {
+    font-size: 0.9em;
+    opacity: 0.7;
+    font-family: monospace;
+    margin-top: 0.5em;
+    color: $body-color;
+    margin: 0;
+    white-space: nowrap;
+    @media (max-width: 600px) {
+        & {
+            font-size: 0.6em;
+            margin: 0;
+        }
+    }
+}
+
+.wrapper {
+    max-width: $container-width;
+    margin-top: 2em;
+}
+
+.go-back {
+    position: sticky;
+    background: #1F2937;
+    bottom: 1em;
+    padding: 1em;
+    border-radius: 3px;
+    border: 1px solid #374151;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    left: 100%;
+    margin: 0 auto;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.break-before-paren {
+    font-weight: 400;
+    font-size: 0.65em;
+    color: $enterprise-secondary;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+
+    &::before {
+        @media (max-width: 600px) {
+            & {
+                content: "\A";
+                white-space: pre;
+            }
+        }
+    }
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.contact-links {
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+
+    a {
+        text-decoration: none;
+        color: #475569;
+        font-weight: 500;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #1D4ED8;
+        }
+    }
+}
+
+.action-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.tooltip-raw {
+    border-bottom: 1px dotted $enterprise-accent;
+    cursor: help;
+    text-decoration: none;
+}

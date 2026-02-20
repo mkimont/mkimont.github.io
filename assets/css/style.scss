@@ -1,23 +1,22 @@
 ---
 ---
 @import "jekyll-theme-midnight";
+
+// Global Configuration
+@import "variables";
+
+// Base HTML Elements
+@import "elements";
+
+// Layout & Structural Components
+@import "section";
+@import "header";
 @import "footer";
+
+// Page & Element Components
 @import "home";
+@import "components";
 @import "cv-button";
-@import "enterprise-clean";
 
-.wrapper, footer, section {
-    max-width: 900px;
-}
-section {
-    margin: 0;
-    padding:0;
-}
-
-main.wrapper { 
-    margin-top: 2em;
-}
-
-footer {
-    @extend .wrapper;
-}
+// Print
+@import "print";

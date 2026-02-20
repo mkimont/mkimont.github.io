@@ -1,5 +1,7 @@
 <section class="home-title-section">
-    <img itemprop="image" src="/assets/images/mateusz-kimont.jpg" alt="Mateusz Kimont - Principal Full-Stack Engineer" class="home-profile-img"/><br>
+    <div class="profile-img-container">
+        <img itemprop="image" src="/assets/images/mateusz-kimont.jpg" title="Hi 👋 Thanks for visiting my website! 🙂 " alt="Mateusz Kimont - Principal Full-Stack Engineer" class="home-profile-img"/>
+    </div>
     
     <div id="title">
         <h1 itemprop="name" class="home-name">{% if page.fullname %}{{ page.fullname }}{% else %}{{ t.full_name | default: 'Mateusz Kimont' }}{% endif %}</h1>
@@ -38,7 +40,7 @@
             <hr>
         {% elsif page.lang == 'en' %}
             <p class="quote-text">
-                "Be careful of extrapolating patterns without proof" <br>
+                "Be careful of <span class="tooltip-raw" title="extend the application of (a method or conclusion) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable.">extrapolating</span> patterns without proof" <br>
                 <span class="quote-author">– Grant Sanderson</span>
             </p>
         {% endif %}

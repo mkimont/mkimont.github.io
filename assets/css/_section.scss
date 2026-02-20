@@ -1,0 +1,49 @@
+section {
+    #title {
+        margin: 0 0 2em 0;
+        padding: 0;
+    }
+
+    // Remove opensans font family from title
+    #title h1 {
+        font-family: inherit !important;
+    }
+
+    #title p {
+        font-family: inherit !important;
+    }
+
+    #title .credits {
+        font-family: inherit !important;
+    }
+
+    #title {
+        h1 {
+            color: $heading-color;
+        }
+
+        p {
+            color: $body-color;
+        }
+    }
+}
+
+.home-section {
+    margin-bottom: 4rem;
+
+    &-title {
+        color: $heading-color !important;
+        text-align: left;
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #E2E8F0;
+        /* Light slate border for separation */
+    }
+
+    &-paragraph {
+        color: $body-color;
+    }
+}
