@@ -91,7 +91,7 @@ Delivered pixel-perfect websites and solutions for a diverse client portfolio wh
 <div align="center">
     <h3>Contact & Social Profiles</h3>
     <p>
-        <a href="https://github.com/mkimont"><img src="https://img.shields.io/badge/GitHub-kimek-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://github.com/mkimont"><img src="https://img.shields.io/badge/GitHub-mkimont-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
         <a href="https://stackoverflow.com/users/3381657/fearis"><img src="https://img.shields.io/badge/Stack_Overflow-fearis-F58025?style=flat&logo=stackoverflow&logoColor=white" alt="Stack Overflow"></a>
         <a href="https://www.x.com/mkimont/"><img src="https://img.shields.io/badge/X-mkimont-000000?style=flat&logo=x&logoColor=white" alt="X (Twitter)"></a>
     </p>

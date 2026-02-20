@@ -20,10 +20,14 @@ section #title {
 
 .home-article {
     margin-bottom: 2rem;
+    position: relative;
 }
 
-.home-job-title {
+.header-list {
     font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
 }
 
 .home-job-description {
@@ -40,10 +44,108 @@ section #title {
     width: 150px; 
     border-radius: 50%;
     max-width: 70px;
+    margin-bottom: 1rem;
 }
 
 .home-skills {
     text-align: center;
+}
+
+.home-title-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-name {
+    margin-bottom: 0.25rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+.home-job-role {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #475569;
+}
+
+.contact-links {
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+
+    a {
+        text-decoration: none;
+        color: #475569;
+        font-weight: 500;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #1D4ED8;
+        }
+    }
+}
+
+.home-seeks {
+    display: none;
+}
+
+.action-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.home-job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+
+    .header-list {
+        margin: 0;
+    }
+
+    .employment-data {
+        margin: 0;
+        white-space: nowrap;
+    }
+}
+
+.home-job-company {
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.home-skill-tag {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.home-contact-section {
+    text-align: center;
+    line-height: 1.8;
 }
 
 .home-education-container {

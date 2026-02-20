@@ -4,18 +4,17 @@ layout: default
 {%- assign t = site.data.languages[page.lang].index -%}
 {%- assign experience_data = site.data.languages[page.lang].experience -%}
 {%- assign achievements_data = site.data.languages[page.lang].achievements -%}
-
 <section class="home-section">
-    <h2 class="home-section-title">{{ t.achievements_title }}</h2>
-    <ul itemscope itemtype="https://schema.org/ItemList">
-        {% for achievement in achievements_data %}
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<h2 class="home-section-title">{{ t.achievements_title }}</h2>
+<div class="posts" itemscope itemtype="https://schema.org/ItemList">
+{% for achievement in achievements_data %}
+            <article itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="home-article">
                 <meta itemprop="position" content="{{ forloop.index }}">
-                <h3 itemprop="name">{{ achievement.title }}:</h3>
+                <h3 class="header-list" itemprop="name">{{ achievement.title }}:</h3>
                 <p class="home-section-paragraph" itemprop="description">{{ achievement.description }}</p>
-            </li> 
+            </article> 
         {% endfor %}
-    </ul>
+    </div>
 </section>
 
 <section class="home-section">
@@ -23,8 +22,10 @@ layout: default
     <div class="posts">
         {% for job in experience_data %}
             <article itemprop="hasOccupation" itemscope itemtype="https://schema.org/Role" class="home-article">
-                <p class="employment-data">{{ job.dates_display }}</p>
-                <h3 class="home-job-title" itemprop="roleName">{{ job.title }}</h3>
+                <div class="home-job-header">
+                    <h3 class="header-list" itemprop="roleName">{{ job.title }} <span class="home-job-company">@ {{ job.company }}</span></h3>
+                    <p class="employment-data">{{ job.dates_display }}</p>
+                </div>
                 <p class="home-job-description" itemprop="description">{{ job.description }}</p>
             </article>
         {% endfor %}
@@ -35,8 +36,10 @@ layout: default
     <h2 class="home-section-title">{{ t.agency_title }}</h2>
     <div class="posts">
         <article itemprop="hasOccupation" itemscope itemtype="https://schema.org/Role" class="home-article">
-            <p class="employment-data">2014 - 2016 (2 years)</p>
-            <h3 class="home-job-title" itemprop="roleName">{{ t.agency_title }}</h3>
+            <div class="home-job-header">
+                <h3 class="header-list" itemprop="roleName">{{ t.agency_title }}</h3>
+                <p class="employment-data">2014 - 2016 (2 years)</p>
+            </div>
             <p class="home-job-description" itemprop="description">{{ t.agency_description }}</p>
         </article>
     </div>
@@ -54,27 +57,27 @@ layout: default
 
 <section class="home-section home-skills">
     <h2 class="home-section-title">{{ t.skills_title }}</h2>
-    <p class="fsr">
-        <a href="/frontend/" itemprop="skills">{{ t.skill_frontend }}</a> |
-        <a href="/php/" itemprop="skills">{{ t.skill_php }}</a> |
-        <a href="/devops/" itemprop="skills">{{ t.skill_devops }}</a> |
-        <a href="/nocode/responsabililties" itemprop="skills">{{ t.skill_responsibilities }}</a> |
-        <a href="/nocode/" itemprop="skills">{{ t.skill_soft }}</a>
-    </p>
+    <div class="skills-container">
+        <a href="/frontend/" itemprop="skills" class="home-skill-tag">{{ t.skill_frontend }}</a>
+        <a href="/php/" itemprop="skills" class="home-skill-tag">{{ t.skill_php }}</a>
+        <a href="/devops/" itemprop="skills" class="home-skill-tag">{{ t.skill_devops }}</a>
+        <a href="/nocode/responsabililties" itemprop="skills" class="home-skill-tag">{{ t.skill_responsibilities }}</a>
+        <a href="/nocode/" itemprop="skills" class="home-skill-tag">{{ t.skill_soft }}</a>
+    </div>
 </section>
 
 <section class="home-section">
    <h2 class="home-section-title">{{ t.education_title }}</h2>
     <div class="home-education-container">
         <div class="home-education-item">
-            <h3 class="home-job-title">{{ t.awards_subtitle }}</h3>
+            <h3 class="header-list">{{ t.awards_subtitle }}</h3>
             <ul>
                 <li itemprop="award"><a href="https://www.awwwards.com/sites/zerodegrees-bar-restaurant-microbrewery" target="_blank">{{ t.award_1 }}</a></li>
                 <li itemprop="award"><a href="/assets/pdfs/microsoft_specialist_programming_in_html5_with_javascript_and_css3.pdf" target="_blank">{{ t.award_2 }}</a></li>
             </ul>
         </div>
         <div class="home-education-item" itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
-             <h3 class="home-job-title">{{ t.education_subtitle }}</h3>
+             <h3 class="header-list">{{ t.education_subtitle }}</h3>
              <p itemprop="description">{{ t.education_description }}</p>
         </div>
     </div>

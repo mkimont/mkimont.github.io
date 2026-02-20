@@ -4,7 +4,7 @@
   title: "Fullstack Engineer"
   company: "Wine.com"
   description: |
-    At <span style="font-weight: bold;">Wine.com</span> Architected and developed a high-impact React self-service application. Engineered the seamless integration of the modern React application into a complex, large-scale legacy Backbone.js e-commerce system.
+    Architected and developed a high-impact React self-service application. Engineered the seamless integration of the modern React application into a complex, large-scale legacy Backbone.js e-commerce system.
 
 - start_date: "2024"
   end_date: "2025"
@@ -12,15 +12,15 @@
   title: "Principal Engineer"
   company: "CMO Group"
   description: |
-    At <span style="font-weight: bold;">CMO Group</span> I drove a 2x performance increase in production sites by leading a full-stack overhaul that included upgrading to PHP 8.3, redesigning the AWS architecture, and optimizing APIs and databases.
+    Drove a 2x performance increase in production sites by leading a full-stack overhaul that included upgrading to PHP 8.3, redesigning the AWS architecture, and optimizing APIs and databases.
 
 - start_date: "2021"
   end_date: "2024"
   dates_display: "2021 - 2024 (3 years)"
   title: "Product Engineer"
-  company: "CharlessWorh Press"
+  company: "Charlesworth Press"
   description: |
-    At <span style="font-weight: bold;">CharlessWorh Press</span> I spearheaded the development of a versatile CMS platform enabling personalized product creation for e-commerce clients, more <a href="/projects/printing-cms" target="_self">here</a>.
+    Spearheaded the development of a versatile CMS platform enabling personalized product creation for e-commerce clients, more <a href="/projects/printing-cms" target="_self">here</a>.
 
 - start_date: "2020"
   end_date: "2020"
@@ -28,7 +28,7 @@
   title: "Software Developer & Analyst (Contract)"
   company: "RLDatix"
   description: |
-    At <span style="font-weight: bold;">RLDatix</span> I enhanced mission-critical healthcare software for a leading international provider with operations in Saudi Arabia, Canada, Australia, and the UK.
+    Enhanced mission-critical healthcare software for a leading international provider with operations in Saudi Arabia, Canada, Australia, and the UK.
 
 - start_date: "2016"
   end_date: "2020"
@@ -36,4 +36,4 @@
   title: "Senior Full-Stack Developer"
   company: "The Insurance Emporium"
   description: |
-    At <span style="font-weight: bold;">The Insurance Emporium</span> I led full-stack development for a major UK insurance company, contributing to the launch of a new company brand and the strategic retirement of legacy products.
+    Led full-stack development for a major UK insurance company, contributing to the launch of a new company brand and the strategic retirement of legacy products.

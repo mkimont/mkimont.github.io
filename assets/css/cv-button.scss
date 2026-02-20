@@ -1,23 +1,29 @@
 .cv-button {
     display: inline-flex;
     align-items: center;
-    background-color: #37aa00;
+    background-color: #1D4ED8;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.55em 1.2em;
+    border-radius: 9999px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.95rem;
+    margin: 0;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    svg path {
+        stroke: white;
+    }
 
     svg {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
     }
 
     &:hover {
-        background-color: #246f02;
+        background-color: #1e40af;
         color: #fff;
     }
 }

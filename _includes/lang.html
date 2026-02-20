@@ -4,11 +4,11 @@
 
 <nav>
     <ul>
-        {%- assign lang_pages = site.pages | where_exp: "item", "item.layout == 'home'" -%}
+        {%- assign lang_pages = site.pages | where_exp: "item", "item.layout == 'home'" | sort: "lang" -%}
 
         {% for p in lang_pages %}
             <li class="downloads {% if p.lang == page.lang %}active{% endif %}">
-              <a rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | relative_url }}">
+              <a rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | relative_url }}" {% if p.lang == page.lang %}class="font-bold"{% endif %}>
                 {{ p.lang | upcase }}
               </a>
             </li>
