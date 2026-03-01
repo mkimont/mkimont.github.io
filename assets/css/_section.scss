@@ -47,3 +47,32 @@ section {
         color: $body-color;
     }
 }
+
+.project-section {
+    margin-bottom: 4rem;    
+    transition: all 0.3s ease;
+    transform: scale(1);
+    filter: grayscale(0);
+    opacity: 1;
+
+    &-title {
+        color: $heading-color !important;
+        text-align: left;
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    img {
+        border: 1px solid #E2E8F0;
+        border-radius: 6px;
+    }
+}
+
+main.wrapper:hover .project-section:not(:hover) {
+    opacity: .9;
+    filter: grayscale(.2);
+}
+
+main.wrapper:hover .project-section:hover {
+    transform: scale(1.05);
+}
