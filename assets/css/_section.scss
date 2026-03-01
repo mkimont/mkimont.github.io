@@ -49,7 +49,7 @@ section {
 }
 
 .project-section {
-    margin-bottom: 4rem;    
+    margin-bottom: 4rem;
     transition: all 0.3s ease;
     transform: scale(1);
     filter: grayscale(0);
@@ -66,13 +66,80 @@ section {
         border: 1px solid #E2E8F0;
         border-radius: 6px;
     }
+
+    video {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #E2E8F0;
+        border-radius: 6px;
+    }
 }
 
-main.wrapper:hover .project-section:not(:hover) {
+// Slick carousel: full-width slides
+.projects-slick {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+    .project-section {
+        padding: 0 1rem 3rem;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .slick-prev,
+    .slick-next {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        line-height: 1;
+
+        &:hover, &:focus {
+            background: #fff;
+            border-color: $enterprise-accent;
+        }
+        &:before {
+            color: $heading-color;
+            font-size: 2rem;
+        }
+    }
+
+    .slick-prev {
+        left: 1rem;
+        @media (min-width: 768px) {
+            left: 2rem;
+        }
+    }
+
+    .slick-next {
+        right: 1rem;
+        @media (min-width: 768px) {
+            right: 2rem;
+        }
+    }
+
+    .slick-dots li button:before {
+        color: rgba(0, 0, 0, 0.35);
+    }
+    .slick-dots li.slick-active button:before {
+        color: $enterprise-accent;
+    }
+}
+
+main.wrapper:not(:has(.projects-slick)):hover .project-section:not(:hover) {
     opacity: .9;
     filter: grayscale(.2);
 }
 
-main.wrapper:hover .project-section:hover {
+main.wrapper:not(:has(.projects-slick)):hover .project-section:hover {
     transform: scale(1.05);
 }
